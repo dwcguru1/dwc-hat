@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/dwcguru/git/dwc-hat/kicad/dwc-hat.sch</source>
+    <date>Do 28 Okt 2021 13:33:52 CEST</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu21.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dwc-hat.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>BNC</value>
+      <footprint>myfootprints:BNC_UG_1094W1</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">1-1337543-0</field>
+        <field name="OrderNr">A97553-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="BNC-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582AD131</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582B94F6</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>BNC</value>
+      <footprint>myfootprints:BNC_UG_1094W1</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">1-1337543-0</field>
+        <field name="OrderNr">A97553-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="BNC-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D9890</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98B1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54T1G</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">BAT54T1G</field>
+        <field name="OrderNr">BAT54T1GOSDKR-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="D_Schottky-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98B2</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98B3</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98B4</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>OPA4340</value>
+      <footprint>Package_SO:SO-14_3.9x8.65mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">OPA4340UA/2K5</field>
+        <field name="OrderNr">296-26286-1-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="TL074-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98BB</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98BC</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98BD</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>33n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98BE</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>22n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98BF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>8.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98C0</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>ATTINY84A-SS</value>
+      <footprint>Package_SO:SO-14_3.9x8.65mm_P1.27mm</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">ATTINY84A-SSF</field>
+        <field name="OrderNr">ATTINY84A-SSF-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="ATTINY84A-SS-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98C6</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98C7</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100n/25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98D2</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98D3</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98F9</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LMP91200</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">LMP91200MT/NOPB</field>
+        <field name="OrderNr">LMP91200MT/NOPB-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="LMP91200-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608CEFB0</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>ADUM1251</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">ADUM1251ARZ-RL7</field>
+        <field name="OrderNr">ADUM1251ARZ-RL7CT-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="ADUM1251-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A88686</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D90398</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D90D76</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>myfootprints:PinHeader_IDC_2x05_P1.27mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">3221-10-0300-00</field>
+        <field name="OrderNr">1175-1735-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7F2DE</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">-</field>
+      </fields>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61142483</tstamp>
+    </comp>
+    <comp ref="NT1">
+      <value>Net-Tie_2</value>
+      <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">-</field>
+      </fields>
+      <libsource lib="Device" part="Net-Tie_2" description="Net tie, 2 pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61230BA9</tstamp>
+    </comp>
+    <comp ref="NT2">
+      <value>Net-Tie_2</value>
+      <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">-</field>
+      </fields>
+      <libsource lib="Device" part="Net-Tie_2" description="Net tie, 2 pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61231034</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP3421</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">MCP3421A2T-E/CH</field>
+        <field name="OrderNr">MCP3421A2T-E/CHCT-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="MCP3421-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60959811</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADUM1251</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">ADUM1251ARZ-RL7</field>
+        <field name="OrderNr">ADUM1251ARZ-RL7CT-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="ADUM1251-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609B3262</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609B3BAE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609B3BB8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B05C0B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B0600B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B0656E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B52F5D</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B539D9</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B73E1E</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B74B7C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Raspberry Pi GPIO</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">ESQ-120-24-T-D</field>
+        <field name="OrderNr">SAM15592-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="Conn_02x20_Odd_Even-dwc-dev-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADEA1EA</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ECF95D</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>0509</value>
+      <footprint>myfootprints:Converter_DCDC_SMD</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">PESE1-S5-S9-M</field>
+        <field name="OrderNr">102-6308-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="DCDC_Mornsun-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6102CE42</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>L78L05_SO8</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">L78L05CD13TR</field>
+        <field name="OrderNr">497-7267-1-ND</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L05_SO8" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61042CA8</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n/25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61110C8D</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61110C97</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>0509</value>
+      <footprint>myfootprints:Converter_DCDC_SMD</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">PESE1-S5-S9-M</field>
+        <field name="OrderNr">102-6308-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="DCDC_Mornsun-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61110CB4</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>L78L05_SO8</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">L78L05CD13TR</field>
+        <field name="OrderNr">497-7267-1-ND</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L05_SO8" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61110CBE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611EBFE0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611EC223</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98AD</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98AE</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98AF</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582D98B0</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582DF10C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582DFA80</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F8C6CD</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DD59A</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614EFEDB</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6153D4F0</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6153E0A4</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FE7C2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FF2D4</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FF5EA</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FFFA5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617003C2</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Distributor">-</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E6A7C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF7D0A</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF890E</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF8918</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF8922</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF892C</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608480F2</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60848784</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>MPX5010DP</value>
+      <footprint>myfootprints:MPX5010DP</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">MPX5010DP</field>
+        <field name="OrderNr">MPX5010DP-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="MPX5010DP-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60929E43</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609BCA27</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609BCA31</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>MCP3221</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">MCP3221A5T-I/OT</field>
+        <field name="OrderNr">MCP3221A5T-I/OTCT-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="MCP3221-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A4B1AB</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>PCA9515</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Distributor">D</field>
+        <field name="Manufacturer">PI6ULS5V9515AWEX</field>
+        <field name="OrderNr">PI6ULS5V9515AWEXCT-ND</field>
+      </fields>
+      <libsource lib="dwc-hat-rescue" part="PI6ULS9515A-mylib" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C2E6E8</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D56386</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D57136</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E007A4</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB7A9E</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4F26C</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>470p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613D80A1</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61473969</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614B1599</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614D2B8E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61585FFB</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>8MHz</value>
+      <footprint>Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf</datasheet>
+      <libsource lib="Oscillator" part="XO32" description="HCMOS Clock Oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6142A939</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614933FE</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61640947</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6164107A</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61644047</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616E192C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61749740</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61749F54</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>MCP1541-TT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="MCP1541-TT" description="4.096V Voltage Reference, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617F6300</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61814FDB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NO_Small">
+      <description>Jumper, normally open, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Net-Tie_2">
+      <description>Net tie, 2 pins</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NT</field>
+        <field name="Value">Net-Tie_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Open">
+      <description>Jumper, 3-pole, both open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="XO32">
+      <description>HCMOS Clock Oscillator</description>
+      <docs>http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf</docs>
+      <footprints>
+        <fp>Oscillator*SMD*EuroQuartz*XO32*3.2x2.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">XO32</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="MCP1525-TT">
+      <aliases>
+        <alias>MCP1541-TT</alias>
+      </aliases>
+      <description>2.5V Voltage Reference, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1525-TT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="Vout" type="power_out"/>
+        <pin num="3" name="Vss" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MC78L05_SO8">
+      <aliases>
+        <alias>MC78L08_SO8</alias>
+        <alias>MC78L06_SO8</alias>
+        <alias>MC78L12_SO8</alias>
+        <alias>MC78L15_SO8</alias>
+        <alias>MC78L18_SO8</alias>
+        <alias>MC78L24_SO8</alias>
+        <alias>LM78L05_SO8</alias>
+        <alias>LM78L12_SO8</alias>
+        <alias>LM2931-5.0_SO8</alias>
+        <alias>L78L33_SO8</alias>
+        <alias>L78L05_SO8</alias>
+        <alias>L78L06_SO8</alias>
+        <alias>L78L08_SO8</alias>
+        <alias>L78L09_SO8</alias>
+        <alias>L78L10_SO8</alias>
+        <alias>L78L12_SO8</alias>
+        <alias>L78L15_SO8</alias>
+        <alias>L78L18_SO8</alias>
+        <alias>L78L24_SO8</alias>
+      </aliases>
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78L05_SO8</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="ADUM1251-mylib">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADUM1251-mylib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="input"/>
+        <pin num="2" name="SDA1" type="BiDi"/>
+        <pin num="3" name="SCL1" type="input"/>
+        <pin num="4" name="GND1" type="input"/>
+        <pin num="5" name="GND2" type="input"/>
+        <pin num="6" name="SCL2" type="output"/>
+        <pin num="7" name="SDA2" type="BiDi"/>
+        <pin num="8" name="VDD2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="ATTINY84A-SS-ph2-cache-dwc-hat-rescue">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATTINY84A-SS-ph2-cache-dwc-hat-rescue</field>
+        <field name="Footprint">SO14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="(PCINT8/CLKI/XTAL1)PB0" type="BiDi"/>
+        <pin num="3" name="(PCINT9/XTAL2)PB1" type="BiDi"/>
+        <pin num="4" name="(PCINT11/dW/~RESET~)PB3" type="BiDi"/>
+        <pin num="5" name="(PCINT10/CKOUT/OC0A/INT0)PB2" type="BiDi"/>
+        <pin num="6" name="(PCINT7/ICP/OC0B/ADC7)PA7" type="BiDi"/>
+        <pin num="7" name="(PCINT6/SDA/DI/MOSI/OC1A/ADC6)PA6" type="BiDi"/>
+        <pin num="8" name="(PCINT5/DO/MISO/OC1B/ADC5)PA5" type="BiDi"/>
+        <pin num="9" name="(PCINT4/USCK/SCL/T1/ADC4)PA4" type="BiDi"/>
+        <pin num="10" name="(PCINT3/T0/ADC3)PA3" type="BiDi"/>
+        <pin num="11" name="(PCINT2/AIN1/ADC2)PA2" type="BiDi"/>
+        <pin num="12" name="(PCINT1/AIN0/ADC1)PA1" type="BiDi"/>
+        <pin num="13" name="(PCINT0/AREF/ADC0)PA0" type="BiDi"/>
+        <pin num="14" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="BNC-ph2-cache-dwc-hat-rescue">
+      <footprints>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BNC-ph2-cache-dwc-hat-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="C-ph2-cache-dwc-hat-rescue">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-ph2-cache-dwc-hat-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="Conn_02x20_Odd_Even-dwc-dev-rescue">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even-dwc-dev-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="DCDC_Mornsun-mylib">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DCDC_Mornsun-mylib</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_muRata_NXExSxxxxMC_SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="Vin" type="power_in"/>
+        <pin num="4" name="0V" type="power_out"/>
+        <pin num="5" name="+V0" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="D_Schottky-ph2-cache-dwc-hat-rescue">
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky-ph2-cache-dwc-hat-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="LMP91200-mylib">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMP91200-mylib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="NC" type="input"/>
+        <pin num="3" name="NC" type="input"/>
+        <pin num="4" name="GUARD1" type="input"/>
+        <pin num="5" name="INP" type="input"/>
+        <pin num="6" name="GUARD2" type="input"/>
+        <pin num="7" name="VCMHI" type="input"/>
+        <pin num="8" name="VCM" type="input"/>
+        <pin num="9" name="VREF" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="VOCM" type="input"/>
+        <pin num="12" name="VOUT" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="VDD" type="input"/>
+        <pin num="15" name="GND" type="input"/>
+        <pin num="16" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="MCP3221-mylib">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3221-mylib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="AIN" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="MCP3421-mylib">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3421-mylib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN+" type="input"/>
+        <pin num="2" name="VSS" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+        <pin num="5" name="VDD" type="input"/>
+        <pin num="6" name="VIN-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="MPX5010DP-mylib">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPX5010DP-mylib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="V1" type="input"/>
+        <pin num="5" name="V2" type="input"/>
+        <pin num="6" name="VEX" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="PI6ULS9515A-mylib">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PI6ULS9515A-mylib</field>
+      </fields>
+      <pins>
+        <pin num="2" name="SCL0" type="BiDi"/>
+        <pin num="3" name="SDA0" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="SDA1" type="BiDi"/>
+        <pin num="7" name="SCL1" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="R-ph2-cache-dwc-hat-rescue">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-ph2-cache-dwc-hat-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dwc-hat-rescue" part="TL074-ph2-cache-dwc-hat-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL074-ph2-cache-dwc-hat-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>/usr/share/kicad/library/Oscillator.lib</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/library/Reference_Voltage.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="dwc-hat-rescue">
+      <uri>/home/dwcguru/git/dwc-hat/kicad/dwc-hat-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C33-Pad2)">
+      <node ref="JP2" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C33" pin="2"/>
+    </net>
+    <net code="2" name="GND_PH">
+      <node ref="U5" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U6" pin="16"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U6" pin="10"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U6" pin="15"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="3" name="GND_EC">
+      <node ref="X1" pin="2"/>
+      <node ref="U7" pin="11"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U7" pin="11"/>
+      <node ref="U7" pin="11"/>
+      <node ref="IC3" pin="14"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="J3" pin="10"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J3" pin="8"/>
+      <node ref="U7" pin="11"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C15" pin="2"/>
+      <node ref="JP2" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="4" name="VGND">
+      <node ref="R10" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U7" pin="2"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="6" name="+3V3">
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U12" pin="8"/>
+      <node ref="U12" pin="5"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C34" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="J1" pin="14"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U12" pin="4"/>
+      <node ref="J1" pin="20"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U11" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J1" pin="30"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="34"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="39"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J4" pin="4"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="10" name="EC_SCK">
+      <node ref="NT2" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U9-Pad4)">
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="12" name="Net-(U9-Pad5)">
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="13" name="Net-(R4-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="14" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C30-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="17" name="Net-(U9-Pad6)">
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="18" name="Net-(C39-Pad1)">
+      <node ref="C39" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="19" name="Net-(IC3-Pad13)">
+      <node ref="IC3" pin="13"/>
+    </net>
+    <net code="20" name="Net-(IC3-Pad2)">
+      <node ref="IC3" pin="2"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="21" name="Net-(C22-Pad2)">
+      <node ref="R10" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="22" name="Net-(C10-Pad2)">
+      <node ref="C22" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="IC3" pin="11"/>
+    </net>
+    <net code="23" name="Net-(IC3-Pad12)">
+      <node ref="IC3" pin="12"/>
+    </net>
+    <net code="24" name="1WIRE">
+      <node ref="J2" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="25" name="Net-(C18-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U11" pin="3"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C40-Pad1)">
+      <node ref="C40" pin="1"/>
+      <node ref="U13" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C26-Pad2)">
+      <node ref="TP1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="28" name="SCL">
+      <node ref="U11" pin="5"/>
+      <node ref="U10" pin="3"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="29" name="SDA">
+      <node ref="U11" pin="4"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="30" name="Net-(J4-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="31" name="Net-(J4-Pad3)">
+      <node ref="R24" pin="2"/>
+      <node ref="U12" pin="6"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="32" name="Net-(J1-Pad36)">
+      <node ref="J1" pin="36"/>
+    </net>
+    <net code="33" name="Net-(J1-Pad19)">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad17)">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad15)">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad13)">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="39" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad16)">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad18)">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad22)">
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad24)">
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="45" name="Net-(J1-Pad26)">
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad28)">
+      <node ref="J1" pin="28"/>
+    </net>
+    <net code="47" name="Net-(J1-Pad32)">
+      <node ref="J1" pin="32"/>
+    </net>
+    <net code="48" name="Net-(J1-Pad21)">
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="49" name="Net-(J1-Pad38)">
+      <node ref="J1" pin="38"/>
+    </net>
+    <net code="50" name="Net-(J1-Pad40)">
+      <node ref="J1" pin="40"/>
+    </net>
+    <net code="51" name="Net-(IC3-Pad6)">
+      <node ref="IC3" pin="6"/>
+    </net>
+    <net code="52" name="Net-(IC3-Pad3)">
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="53" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="54" name="Net-(J1-Pad37)">
+      <node ref="J1" pin="37"/>
+    </net>
+    <net code="55" name="Net-(J1-Pad35)">
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="56" name="Net-(J1-Pad33)">
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="57" name="Net-(J1-Pad31)">
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="58" name="Net-(J1-Pad29)">
+      <node ref="J1" pin="29"/>
+    </net>
+    <net code="59" name="Net-(J1-Pad27)">
+      <node ref="J1" pin="27"/>
+    </net>
+    <net code="60" name="Net-(J1-Pad23)">
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="61" name="Net-(J3-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="62" name="Net-(J3-Pad2)">
+      <node ref="JP1" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="63" name="Net-(J3-Pad7)">
+      <node ref="R23" pin="1"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="64" name="EC_MISO">
+      <node ref="IC3" pin="8"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="65" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="66" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="67" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="68" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="69" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="70" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="71" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="72" name="Net-(C11-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="73" name="Net-(P4-Pad1)">
+      <node ref="U7" pin="9"/>
+      <node ref="P4" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="74" name="SCL_PH">
+      <node ref="U2" pin="6"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="75" name="SDA_PH">
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="76" name="EC_MOSI">
+      <node ref="NT1" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="77" name="SCL_EC">
+      <node ref="IC3" pin="9"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U10" pin="6"/>
+      <node ref="NT2" pin="2"/>
+    </net>
+    <net code="78" name="SDA_EC">
+      <node ref="IC3" pin="7"/>
+      <node ref="NT1" pin="2"/>
+      <node ref="U10" pin="7"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="79" name="EC_RESET">
+      <node ref="J3" pin="5"/>
+      <node ref="R22" pin="1"/>
+      <node ref="IC3" pin="4"/>
+    </net>
+    <net code="80" name="+5V_EC">
+      <node ref="U3" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="X1" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U7" pin="4"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="81" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="82" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="83" name="Net-(C33-Pad1)">
+      <node ref="TP4" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U7" pin="13"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="84" name="Net-(C25-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="85" name="Net-(C24-Pad2)">
+      <node ref="C25" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C24" pin="2"/>
+    </net>
+    <net code="86" name="Net-(C24-Pad1)">
+      <node ref="U7" pin="12"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="87" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="88" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="89" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="90" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="91" name="Net-(C19-Pad1)">
+      <node ref="U8" pin="5"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="92" name="+5V_PH">
+      <node ref="U2" pin="8"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U6" pin="14"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="93" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="94" name="+5V">
+      <node ref="J1" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+  </nets>
+</export>

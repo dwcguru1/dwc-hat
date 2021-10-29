@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name dwc-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/dwc-hat-rescue.lib)(options "")(descr ""))
+)
