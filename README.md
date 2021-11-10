@@ -11,7 +11,7 @@ The DWC Hat does following:
 - PH measurement (DWC)
 - EC measurement (DWC)
 - Temperature measurement and correction (DWC)
-- Pressure* measurement (DWC)
+- Pressure* measurement for water level monitoring (DWC)
 - Temperature and humidity measurement of air
 
 *: Everything except the pressure sensing works as expected. It works electrically, but there would be needed a much more sophisticated temperature compensation. To sum it up: It never worked well.
@@ -176,6 +176,14 @@ Follow any tutorial for installing InfluxDB and Grafana.
 Default Database, User, Password is in the `config.ini`.
 
 Make sure to configure the timezone right on the Raspi.
+
+## TODO
+
+There are some things I would like to improve:
+
+- STM32 (M4) for EC measurement. Use internal DAC for DDS sine generation and FIR band pass. This would reduce the parts needed by a lot. Also would improve resolution (12Bit ADC instead of 10Bit ADC).
+- Better pt1000 based temperature sensor for DWC. DS18B20 digitizes too coarse what affects temperature compensation of EC negatively.
+- Replace the pressure sensing with something else better working. E.g. capacitive sensing with conductive strips glued on the outside of the DWC bin or something else ...
 
 ## Disclaimer
 
